@@ -1,10 +1,13 @@
 # Pulse-Platform ⚡ — High-Throughput Real-Time Collaboration & Media System Architecture
 
-[![Architecture Showcase](https://img.shields.io/badge/System-Architecture_Showcase-3B82F6?style=for-the-badge&logo=diagrams.net&logoColor=white)](#system-architecture-overview)
+[![Frontend Deployment](https://img.shields.io/badge/Frontend_App-Vercel_Live-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://private-pulse-platform.vercel.app)
+[![Backend Deployment](https://img.shields.io/badge/Backend_API-Render_Live-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://private-pulse-platform-backend.onrender.com)
 [![WebRTC SFU](https://img.shields.io/badge/WebRTC-Mediasoup_Engine-FF6B6B?style=for-the-badge&logo=webrtc&logoColor=white)](https://mediasoup.org)
 [![Real-Time Engine](https://img.shields.io/badge/Realtime-WebSockets_Gateway-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io)
-[![Infrastructure](https://img.shields.io/badge/Infrastructure-Distributed_Caching-47A248?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io)
-[![Repository Status](https://img.shields.io/badge/Security-Private_Source_Showcase-059669?style=for-the-badge&logo=github&logoColor=white)](#security--privacy-considerations)
+
+> 🌐 **Live Deployments:**
+> - **Frontend Application (Vercel):** [https://private-pulse-platform.vercel.app](https://private-pulse-platform.vercel.app)
+
 
 > 🔒 **Security Notice:** *The source code for the frontend and backend services is maintained in private, production repositories to satisfy security standards, proprietary protections, and environment compliance. This repository serves as a high-level system design showcase and architectural blueprint for technical evaluation.*
 
