@@ -1,15 +1,28 @@
 # Pulse-Platform ⚡ — High-Throughput Real-Time Collaboration & Media System Architecture
 
 [![Frontend Deployment](https://img.shields.io/badge/Frontend_App-Vercel_Live-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://private-pulse-platform.vercel.app)
-[![Backend Deployment](https://img.shields.io/badge/Backend_API-Render_Live-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://private-pulse-platform-backend.onrender.com)
 [![WebRTC SFU](https://img.shields.io/badge/WebRTC-Mediasoup_Engine-FF6B6B?style=for-the-badge&logo=webrtc&logoColor=white)](https://mediasoup.org)
 [![Real-Time Engine](https://img.shields.io/badge/Realtime-WebSockets_Gateway-010101?style=for-the-badge&logo=socket.io&logoColor=white)](https://socket.io)
 
-> 🌐 **Live Deployments:**
+> 🌐 **Live Deployment:**
 > - **Frontend Application (Vercel):** [https://private-pulse-platform.vercel.app](https://private-pulse-platform.vercel.app)
 
 
 > 🔒 **Security Notice:** *The source code for the frontend and backend services is maintained in private, production repositories to satisfy security standards, proprietary protections, and environment compliance. This repository serves as a high-level system design showcase and architectural blueprint for technical evaluation.*
+
+---
+
+## 📌 About The Project
+
+**Pulse-Platform** is a production-grade, high-performance real-time collaboration and multi-party media streaming platform built to enable seamless sub-100ms communication across modern distributed teams.
+
+### 🌟 Key Features & Capabilities
+- 📹 **Multi-Party WebRTC Video Conferencing**: Powered by a native C++ **Mediasoup SFU** (Selective Forwarding Unit) to route high-definition video/audio with minimal bandwidth and CPU overhead.
+- 💬 **Instant Real-Time Chat & State Synchronization**: Powered by **Socket.IO** with Redis Pub/Sub for sub-100ms multi-node event distribution.
+- 🔐 **End-to-End Encrypted (E2EE) Messaging**: Client-side payload encryption ensuring maximum privacy and data security.
+- 🖌️ **Collaborative Whiteboard**: Real-time canvas drawing and shared workspace synchronization.
+- 🟢 **Live Workspace Presence**: Sub-second user online/offline status tracking and dynamic heartbeat management with Upstash Redis.
+- 🛡️ **Enterprise Security & Reliability**: Full CORS context isolation, JWT authentication, rate limiting, and structured logging.
 
 ---
 
