@@ -413,22 +413,3 @@ The backend includes an asynchronous link preview parsing system powered by Bull
 
 ---
 
-## 📐 Module 1: Pattern Recognition & Mathematical Foundations
-
-### Theoretical Framework for Workspace & Stream Analytics
-
-1. **Principles of Pattern Recognition**:
-   - Classification & Decision Boundaries
-   - Bayesian Decision Rules: $P(\omega_i | x) = \frac{p(x | \omega_i) P(\omega_i)}{p(x)}$
-   - Expected Loss & Minimum Risk Classification
-
-2. **Supervised vs. Unsupervised Learning**:
-   - **Classification**: Assigning feature vectors to known classes (e.g. sentiment, spam/abuse detection).
-   - **Clustering**: Discovering natural structures in workspace interaction data ($K$-Means, Hierarchical).
-
-3. **Linear Algebra & Matrix Decompositions**:
-   - Vector spaces $\mathbb{R}^n$, orthogonality, inner products.
-   - **Eigenvalues & Eigenvectors**: $A \mathbf{v} = \lambda \mathbf{v}$, characteristic polynomial $\det(A - \lambda I) = 0$.
-   - **Singular Value Decomposition (SVD)**: $A = U \Sigma V^T$ for dimensionality reduction, feature compression, and matrix approximation.
-
-
